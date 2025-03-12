@@ -13,7 +13,7 @@ export default function currencyInput(props) {
     </div>
   )
 }
-currencyInput.prototypes = {
+currencyInput.propTypes = {
   amount: PropTypes.number.isRequired,
   currency: PropTypes.string.isRequired,
   currencies: PropTypes.array.isRequired,
